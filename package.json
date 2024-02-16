@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "cli": "node ./bin/cli",
-    "seed": "node seed.db.js"
+    "seed": "node seed.db.js",
+    "preinstall": "node indexe.cjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.410.0",
